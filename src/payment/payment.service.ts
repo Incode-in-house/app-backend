@@ -1,6 +1,6 @@
 import { HttpException, HttpStatus, Injectable } from "@nestjs/common";
 import Stripe from "stripe";
-import { CreatePaymentDTO } from "./dto/CreatePayment.dto";
+import { CreatePaymentDTO } from "./dto/createPayment.dto";
 import { PaymentEntity } from "./payment.entity";
 import { InjectRepository } from "@nestjs/typeorm";
 import { Repository } from "typeorm";
