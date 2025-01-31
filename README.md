@@ -52,4 +52,4 @@ You can use the `example.env` file as a template.
       -H "Content-Type: multipart/form-data" \
       -F "amount=1000"
       -F "country=Ukraine"
-   ```
+   ```# dariaismyname.github.io
